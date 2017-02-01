@@ -4,20 +4,20 @@ body {
   margin: 0;
   padding: 0;
 	font-size: 14px;
-	line-height: 1.4em;
+	line-height: 1.4;
 	color: #000000;
+  background-color: white;
 	font-weight: bold;
-	font-family: "PT Sans Narrow", "Times New Roman", serif;
+	font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
-h1, {
+
+h1 {
 	font-size: 30px;
 }
+
 h2 {
 	font-size: 24px;
-}
-h3 {
-	font-size: 14px;
 }
 
 .clearfix::after {
@@ -27,8 +27,7 @@ h3 {
   clear: both;
 }
 
-.container,
-.container-head {
+.container {
   width: 940px;
   margin: 0 auto;
   padding: 0 10px;
@@ -44,17 +43,17 @@ h3 {
   min-height: 70px;
 }
 
-.logo-png{
+.logo{
   float: left;
   width: 140px;
   min-height: 70px;
-  margin-right:20px;
+  margin-right: 20px;
 }
 
-.main-navigation__2{
+.main-navigation-2{
   width: 620px;
   min-height: 70px;
-  float:left;
+  float: left;
 }
 
 .user-block {
@@ -127,17 +126,16 @@ h3 {
   width: 180px;
   min-height: 90px;
 }
+
 /* стили для catalog-item.html */
+
 .breadcrumbs {
   width: 940px;
-  min-height: 94px;
-  padding-top: 5px;
   margin-bottom: 20px;
 }
 
 .images-item {
   width: 460px;
-  height: 670px;
   float: left;
 }
 
@@ -147,84 +145,67 @@ h3 {
 
 .img-nav {
   float: left;
-  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.img-nav__left {
-  float: left;
+.img-nav:last-child {
+  margin: 0;
 }
 
 .item-description {
   width: 460px;
-  min-height: 300px;
   float: right;
   margin-bottom: 70px;
 }
+
 .paragraph {
   width: 390px;
 }
 
 .item-content {
   width: 460px;
-  min-height: 300px;
   float: right;
 }
 
 /* стили для catalog.html */
 
-.filter-product__selection {
+.filter-product-selection {
   width: 940px;
-  min-height: 590px;
 }
 
 .filter-container {
   width: 220px;
-  height: 592px;
+  float: left;
+}
+
+.item-block {
+  width: 700px;
+  float: right;
+}
+
+.item-block__pictures{
+  width: 220px;
+  min-height: 286px;
   float: left;
 }
 
 .item-block__pictures {
-  width: 700px;
-  height: 590px;
-  float: right;
-}
-
-.item-block{
-  width: 220px;
-  height: 285px;
-  float: left;
-}
-
-.item-1,
-.item-2,
-.item-4,
-.item-5 {
   margin-right: 20px;
-}
-
-.item-1,
-.item-2,
-.item-3 {
   margin-bottom: 20px;
 }
 
-.pagination {
-  min-height: 45px;
+.item-block__pictures:nth-child(3n) {
+  margin: 0;
 }
 
-.pagination-nav {
-  min-height: 45px;
+/*
+.radiobutton {
+ width:20px;
+ height:20px;
+ border:1px solid black;
+ border-radius:50px;
 }
-
-
-
-
-
-
-
-
-
-
+*/
 
 
 
